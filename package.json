@@ -1,10 +1,11 @@
 {
   "name": "cssgrid",
   "version": "1.0.0",
-  "description": "",
-  "main": "grid.js",
+  "description": "Simple CSS grid",
+  "main": "grid.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx browser-sync",
+    "build": "npx uglifycss grid.css > grid.min.css"
   },
   "repository": {
     "type": "git",
