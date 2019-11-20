@@ -6,7 +6,7 @@
   }
 
 /* Gutters */
-.gutter-1 div div {
+.gutter-1 > div > * {
     margin-left:var(--gutter1);
     margin-bottom:var(--gutter1);
 }
@@ -14,7 +14,7 @@
     margin-left: calc(-1* var(--gutter1) );
 }
 
-.gutter-2 div div {
+.gutter-2 div * {
     margin-left:var(--gutter2);
     margin-bottom:var(--gutter2);
 }
