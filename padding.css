@@ -1,4 +1,11 @@
 /* Padding helpers */
+
+.pa-1 { padding: 10px; }
+.pa-2 { padding: 20px; }
+.pa-3 { padding: 30px; }
+.pa-4 { padding: 40px; }
+.pa-5 { padding: 50px; }
+
 .pt-1 { padding-top: 10px; }
 .pt-2 { padding-top: 20px; }
 .pt-3 { padding-top: 30px; }
